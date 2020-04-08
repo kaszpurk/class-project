@@ -27,8 +27,13 @@ header{
 
 header > nav {
     float: right;
-    margin-top: 70px;
-    
+    margin-top: 70px;   
+}
+
+section > image {
+    width: 250px;
+    display: inline;
+    padding: 10px;
 }
 
 header > nav > ul > li {
@@ -40,5 +45,3 @@ header > nav > ul > li {
     text-align; center;
     border; 1px;
 }
-
-header > nav > ul > li > a 

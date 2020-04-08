@@ -2,7 +2,7 @@ var response = prompt('Do you like to photography, travel or both?');
 var item;
 
 if (response === 'photography') {
-    item = 'I love photography!';
+    item = '<img src="">';
 } else if (response === 'travel') {
     item = 'I love exploring new places!';
 } else if (response === 'both') {
