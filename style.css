@@ -22,7 +22,7 @@ header{
     width: 150px;
     margin: 10px;
     margin-left: 100px;
-    float: left;
+    float: hsl(200, 95%, 55%)
 }
 
 header > nav {

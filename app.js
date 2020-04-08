@@ -21,3 +21,28 @@ function askName() {
     return document.write('<h3>' + 'Hello, ' + userName + '</h3>');
 
 }
+
+function getItemType(){
+    var response = prompt('Would you like to buy a house or a hotel?');
+    var item;
+    while (response !== 'house' && response !== 'hotel');
+        response = prompt('PLEASE ANSWER EXACT! Would you like to purchase a house or hotel?'
+)
+
+}
+
+function showOrder(){
+    var result = '';
+//get the item type
+var itemType = getItemType();
+// find out how many
+var orderTotal = HowMany();
+//send that order to the web page
+for (var i = 0; i < orderTotal; i++){
+  result = result + '<p>' + itemType + '</p>';
+
+}
+console.log(result);
+
+return document.write(result);
+}
