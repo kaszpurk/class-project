@@ -46,3 +46,10 @@ console.log(result);
 
 return document.write(result);
 }
+
+function katsCookies(){
+    for (var i =0; i < 5; i++){
+        i++;
+        console.log(i);
+    }
+}
