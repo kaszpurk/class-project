@@ -35,3 +35,4 @@ function makeCake(cakeType, filling, frosting){
 function favoriteTomClancyNovel(mainCharacter, location, threatToUS){
     console.log('My favorite Tom Clancy novel stars ' + mainCharacter + ' located in ' + location + ' is about ' + threatToUS + '.');
 }
+
