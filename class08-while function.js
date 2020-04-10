@@ -4,15 +4,15 @@ function getItemType(){
     while (response !== 'cookies' && response !== 'cake'){
         response = prompt('PAY ATTENTION YOU! Would you like cookies or cake??');
     };
-    return response;
+    document.write ('Glad you like ' + response);
 }
+
 
 function howManyCookies (){
     var response = prompt('How many would you like?')
     console.log(response);
     return response;
 }
-
 
 function katsCooking(){
     var whatItem = getItemType();
@@ -23,3 +23,4 @@ function katsCooking(){
     }
 }
 
+katsCooking();
