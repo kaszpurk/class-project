@@ -4,7 +4,6 @@ function getItemType(){
     while (response !== 'cookies' && response !== 'cake'){
         response = prompt('PAY ATTENTION YOU! Would you like cookies or cake??');
     };
-    document.write ('Glad you like ' + response);
 }
 
 
@@ -16,10 +15,15 @@ function howManyCookies (){
 
 function katsCooking(){
     var whatItem = getItemType();
+    if (whatItem === 'cookies') {
+        img = '<img src="images/cookie image.jpeg" alt="Cookie">';
+    } else {
+        img = '<img src="images/cake image.jpeg" alt="Cookie">';
+    }
     var numberOfItems = howManyCookies();
     for (var i = 0; i < numberOfItems; i++){
-        result = 'We would like to help you order ' + numberOfItems + ' ' + whatItem + '.';
-        console.log(result);
+        result = 'We would like to help you order' + img + '<br/>';
+        document.write(result);
     }
 }
 
